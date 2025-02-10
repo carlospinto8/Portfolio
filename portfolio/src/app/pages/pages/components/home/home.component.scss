@@ -1,0 +1,9 @@
+@import '../../../../../styles.scss';
+.nav-tabs {
+    background-color: $sea_green;
+}
+::ng-deep {
+    .mat-mdc-tab .mdc-tab__text-label {
+        color: $light_yellow !important;
+    }
+}
